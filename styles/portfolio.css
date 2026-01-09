@@ -48,3 +48,55 @@ nav{
     text-decoration: none;
     list-style-type: none;
 }
+#hero{
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/hero-bg.png);
+}
+.hero-content{
+    max-width: 1360px;
+    /* height: 339px; */
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+.hero-section{
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: medium;
+    background: #ffffff;
+    color: #30bb68;
+    margin: 8px 12px;
+    border-radius: 1000px;
+}
+.hero-tittle{
+    font-size:56px ;
+    font-weight: 700px;
+    margin-bottom: 16px;
+    line-height: 1.15;
+    
+
+}.color-green {
+    color: #30bb68;
+}
+.hero-text{
+    font-size: 18px;
+    margin: 0 auto 36px;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.hero-btn{
+   background-color: transparent;
+     border: none;
+     padding: 12.5px 16px;
+     font-size: 16px;
+     font-weight: semi-bold;
+     color: white;
+     border: 1px solid;
+     border-radius: 8px;
+ 
+}
