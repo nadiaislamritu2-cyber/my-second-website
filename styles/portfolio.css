@@ -21,6 +21,8 @@ header{
      font-size: 16px;
      font-weight: semi-bold;
      color: white;
+     display: inline-flex;
+     gap: 8px;
 
 }
 nav{
@@ -166,4 +168,30 @@ font-weight: 600;
 .Brain-content ul li {
     margin: 16px;
     position: relative;
+}
+#Early-access{
+    padding: 100px 100px;
+    text-align: center;
+}
+.Early-access-container{
+ max-width: 1360px;
+ margin: auto;
+  background-color: #f7f6f2;
+}
+.Early-access-container h2{
+    font-size: 40;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.Early-access-container p{
+    font-size: 16px;
+    color: #6b7282;
+    margin-bottom: 32px;
+    line-height: 1.6;
+}
+.access-note{
+   font-size: 16px;
+    color: #6b7282;
+    margin-top: 20px; 
 }
